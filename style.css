@@ -1,0 +1,135 @@
+body {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 20px;
+
+}
+
+.text-title{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+#price{
+  text-align: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 30px;
+}
+
+.navbar {
+  background-color: #ffffff;
+  position: relative;
+  transition: 0.3s;
+}
+
+
+
+.block-title {
+  text-align: center;
+  border-bottom: 2px solid #e9b7f7;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #e9b7f7;
+  opacity: 0.5;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #e9b7f7;
+  opacity: 0.5;
+}
+
+.carousel-caption {
+  top: 55%;
+  transform: translateY(-50%);
+  font-family: 'Teko', sans-serif;
+  font-size: 90px;
+  bottom: initial;
+  border: solid;
+  border-color: #e9b7f7;
+  text-shadow: #e9b7f7 0 0 10px;
+}
+
+/* Portfolio */
+
+.job-img{
+  height: 250px;
+  width: 250px;
+  float: center;
+  margin: 3px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+._1portfolio{
+  background-image: url("img/portfolio/1portfolio.jpg");
+}
+
+._2portfolio{
+  background-image: url("img/portfolio/2portfolio.jpg");
+}
+._3portfolio{
+  background-image: url("img/portfolio/3portfolio.jpg");
+}
+._4portfolio{
+  background-image: url("img/portfolio/4portfolio.jpg");
+}
+._5portfolio{
+  background-image: url("img/portfolio/5portfolio.jpg");
+}
+._6portfolio{
+  background-image: url("img/portfolio/6portfolio.jpg");
+}
+
+._7portfolio{
+  background-image: url("img/portfolio/7portfolio.jpg");
+}
+._8portfolio{
+  background-image: url("img/portfolio/8portfolio.jpg");
+}
+
+
+/* Cards */
+.card {
+  margin:50px;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(233, 183, 247, 0.8);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(233, 183, 247, 0.8);
+}
+
+/*  Footer     */
+
+footer {
+  padding: 3%;
+  margin-top: 50px;
+  box-shadow: 0 4px 4px 8px rgba(233, 183, 247, 0.6);
+
+}
+
+i{
+  font-size: 20px;
+  transition: 0.3s;
+}
